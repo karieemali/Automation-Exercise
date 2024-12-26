@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Exercise Regression Suite">
+    <parameter name="browser" value="chrome"></parameter>
+    <test name="Regression Test" preserve-order="true">
+        <classes>
+            <class name="tests.TestBase"></class>
+            <class name="tests.UserRegisterTest"></class>
+            <class name="tests.UserRegisterWithEmailExistTest"></class>
+            <class name="tests.UserLoginTest"></class>
+            <class name="tests.UserLoginWithInvalidEmailTest"></class>
+            <class name="tests.SearchProductTest"></class>
+            <class name="tests.CategoryProductTest"></class>
+            <class name="tests.BrandProductTest"></class>
+            <class name="tests.AddProductsToCartTest"></class>
+            <class name="tests.CheckOutTest"></class>
+            <class name="tests.ReviewProductTest"></class>
+            <class name="tests.ContactUSTest"></class>
+            <class name="tests.SubscriptionEmailTest"></class>
+        </classes>
+    </test>
+</suite>
+
